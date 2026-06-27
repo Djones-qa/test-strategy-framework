@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Reports
+reports/
+*.html
+!docs/**/*.html
+
+# Coverage
+coverage/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+test-results/
+playwright-report/
+
+# k6
+*.json.gz
+
+# Logs
+*.log
+npm-debug.log*
