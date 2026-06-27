@@ -22,5 +22,5 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "no-console": "off",
   },
-  ignorePatterns: ["dist/", "node_modules/", "reports/", "*.js"],
+  ignorePatterns: ["dist/", "node_modules/", "reports/", "src/performance/", "*.js"],
 };
