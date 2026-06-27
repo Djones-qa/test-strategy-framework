@@ -176,6 +176,6 @@ Copy `.env.example` to `.env` and update values:
 
 ## License
 
-MIT © 2024 Darrius Jones
+MIT © 2026 Darrius Jones
 
 See [LICENSE](./LICENSE) for details.

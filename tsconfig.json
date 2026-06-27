@@ -21,6 +21,6 @@
       "@performance/*": ["src/performance/*"]
     }
   },
-  "include": ["src/**/*", "tests/**/*"],
-  "exclude": ["node_modules", "dist", "reports"]
+  "include": ["src/**/*", "tests/**/*", "*.ts"],
+  "exclude": ["node_modules", "dist", "reports", "src/performance/**"]
 }

@@ -106,7 +106,7 @@ export function assertArrayLength(response: AxiosResponse<unknown[]>, expectedLe
 }
 
 export function assertJsonContentType(response: AxiosResponse): void {
-  const contentType = response.headers["content-type"] || "";
+  const contentType = String(response.headers["content-type"] || "");
   if (!contentType.includes("application/json")) {
     throw new Error(
       `Expected JSON content type, got "${contentType}"`
